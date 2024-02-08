@@ -30,6 +30,8 @@ public class Main {
 
         double sonuc = toplam / 6;
 
+        System.out.println(sonuc > 60 ? "geçti" : "kaldı");
+
         System.out.println(sonuc);
 
     }
